@@ -5,7 +5,7 @@ import Layout from './LayOUt/Layout'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='px-5 bg-[#1f2336]'>
+    <div className=' text-white bg-[#1f2235]'>
     <Layout></Layout>
     </div>
   </React.StrictMode>,
