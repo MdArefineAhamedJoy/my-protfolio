@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-10">
       <footer className=" py-10 bg-neutral  flex pt-20 ">
         <div className=" md:w-3/12 text-center">
           <span className="footer-title text-xl">Services</span>
@@ -15,7 +15,7 @@ const Footer = () => {
             <a className="link link-hover ">Jobs</a>
             <a className="link link-hover ">Press kit</a>
           </div>
-          <small>Copyright By@Example - 2019 </small>
+          <small>Copyright By@Arefine - 2023 </small>
         </div>
         <div className=" md:w-3/12 text-right pe-5">
           <button className="btn btn-outline btn-warning block">Warning</button>

@@ -16,19 +16,21 @@ const About = () => {
             <h1 className="text-5xl font-bold ">
               Why hire me for your next project?
             </h1>
-            <p className="py-6">
+            <div className="py-6">
               <p className="py-4">
                 Why hire me for your next project? Meet my startup design agency
                 Shape Rex Currently I am working at CodeNext as Product
                 Designer.
               </p>
-              Before that I’ve worked at SpurBee, Dhaka as a UX, UI Designer. I
-              love to work in User Experience & User Interface designing.
-              Because I love to solve the design problem and find easy and
-              better solutions to solve it. I always try my best to make good
-              user interface with the best user experience. I have been working
-              as a Visual designer from.
-            </p>
+              <p>
+                Before that I’ve worked at SpurBee, Dhaka as a UX, UI Designer.
+                I love to work in User Experience & User Interface designing.
+                Because I love to solve the design problem and find easy and
+                better solutions to solve it. I always try my best to make good
+                user interface with the best user experience. I have been
+                working as a Visual designer from.
+              </p>
+            </div>
             <button className="btn btn-outline btn-warning">Get Started</button>
           </div>
         </div>

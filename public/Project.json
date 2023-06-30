@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "SerensSoulYoga",
+      "features": [
+        "Users can register as an instructor or student",
+        "Instructors can add and update classes based on feedback",
+        "Students can select and purchase classes",
+        "Admin can manage user roles and approve/deny classes"
+      ],
+      "technology": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+        "Stripe.js",
+        "Tailwind CSS"
+      ],
+      "image": "https://example.com/serenssoulyoga.jpg"
+    },
+    {
+      "id": 2,
+      "title": "BabyCarCurias",
+      "features": [
+        "User authentication with email & password and Google",
+        "Users can add and update content",
+        "Collaboration features and access to view all details"
+      ],
+      "technology": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase"
+      ],
+      "image": "https://example.com/babycarcurias.jpg"
+    },
+    {
+      "id": 3,
+      "title": "BolLagbe-Books Reselling",
+      "features": [
+        "User authentication with email & password and Google GitHub",
+        "View details page of top chefs for logged-in users",
+        "View blogs and download PDF versions"
+      ],
+      "technology": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+        "Tailwind CSS",
+        "DaisyUI"
+      ],
+      "image": "https://example.com/bollagbebooks.jpg"
+    }
+  ]
+  
