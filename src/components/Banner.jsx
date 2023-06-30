@@ -17,10 +17,10 @@ const Banner = () => {
             </h2>
             <h1 className="py-6 md:text-5xl text-2xl tracking-widest capitalize font-bold text-white">i am web application developer</h1>
             <div className="pt-10">
-              <button className="px-6 py-3 outline outline-2  outline-offset-2 outline-red-400 ">
+              <button className="px-6 py-3 hover:bg-[#ffc576] hover:text-black  outline outline-2  duration-300 outline-[#ffc576] ">
                 Get Started
               </button>
-              <button className="px-6 ms-10 py-3 outline outline-2  outline-offset-2 outline-red-400 ">
+              <button className="px-6 duration-300 hover:bg-[#ffc576] hover:text-black  ms-10 py-3 outline outline-2   outline-[#ffc576] ">
                 Get Started
               </button>
             </div>
