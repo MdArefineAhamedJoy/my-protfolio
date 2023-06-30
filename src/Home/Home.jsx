@@ -1,7 +1,9 @@
 import React from "react";
 import HeroPage from "../components/HeroPage";
 import OptionTabs from "../components/OptionTabs";
-import Project from "../components/Project";
+import Project from "../Project/Project";
+import Socialmedia from "../SocialMedia/Socialmedia";
+
 
 const Home = () => {
   return (
@@ -9,6 +11,7 @@ const Home = () => {
       <HeroPage></HeroPage>
       <OptionTabs></OptionTabs>
       <Project></Project>
+      <Socialmedia></Socialmedia>
     </div>
   );
 };

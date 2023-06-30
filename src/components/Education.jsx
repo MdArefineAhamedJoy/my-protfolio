@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const Education = () => {
   return (
     <div className=" pt-5">
@@ -20,14 +18,20 @@ const Education = () => {
           <h2 className="card-title">Group : Department Of Management </h2>
         </div>
       </div>
-
-      <div className="card card-side rounded-none ">
+      <div className="card card-side   rounded-none">
         <figure>
-          <img src="" alt="Movie" />
+          <img
+            src="https://i.ibb.co/sj1vTWK/images.jpg"
+            alt="Movie"
+            className="md:h-40 md:w-[400px]"
+          />
         </figure>
-        <div className="card-body">
-          <h2 className="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
+        <div className="card-body grid grid-cols-2 gap-4">
+          <p>Intrution Name : Tongi Pilot School </p>
+          <p>Graduation : SSC </p>
+          <p>GPA : 4.11</p>
+          <p>Duration : 2 years</p>
+          <p>Batch : 98 Batch</p>
         </div>
       </div>
       <div className="card card-side   rounded-none">
@@ -42,7 +46,7 @@ const Education = () => {
           <p>Intrution Name : Tongi Pilot School </p>
           <p>Graduation : SSC </p>
           <p>GPA : 4.11</p>
-          <p>Duration : </p>
+          <p>Duration : 2 years</p>
           <p>Batch : 98 Batch</p>
         </div>
       </div>
