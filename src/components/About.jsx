@@ -5,15 +5,15 @@ const About = () => {
     <div className="w-full bg-[#313552]">
       <div className="hero  h-full">
         <div className="hero-content flex-col lg:flex-row">
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             <img
               src="https://i.ibb.co/2gSr8n8/about-pic.png"
-              className="w-full h-[500px] "
+              className="w-full md:h-[500px] h-full "
             />
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2 ">
             <h3 className="pb-5">About Me </h3>
-            <h1 className="text-5xl font-bold ">
+            <h1 className="text-3xl font-bold ">
               Why hire me for your next project?
             </h1>
             <div className="py-6">

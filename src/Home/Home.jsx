@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <div>
       <HeroPage></HeroPage>
-      {/* <OptionTabs></OptionTabs>
+      <OptionTabs></OptionTabs>
       <Project></Project>
       <Socialmedia></Socialmedia>
-      <Footer></Footer> */}
+      {/* <Footer></Footer> */}
     </div>
   );
 };
