@@ -3,23 +3,22 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="pt-10">
-      <footer className=" py-10 bg-neutral  flex pt-20 ">
-        <div className=" md:w-3/12 text-center">
+      <footer className=" py-10 bg-neutral px-4 md:px-0   md:flex md:pt-20 ">
+        <div className=" md:w-3/12 md:text-center">
           <span className="footer-title text-xl">Services</span>
         </div>
-        <div className="md:w-6/12 text-center  ">
+        <div className="md:w-6/12 md:text-center my-10 md:my-0  ">
           <span className=" footer-title text-3xl ">Let’s Talk ?</span>
-          <div className="pt-20 pb-3 md:flex gap-5 justify-center ">
-            <a className="link link-hover ">About us</a>
-            <a className="link link-hover ">Contact</a>
-            <a className="link link-hover ">Jobs</a>
-            <a className="link link-hover ">Press kit</a>
+          <div className="md:pt-20 pt-5 pb-3 md:flex gap-5 justify-center ">
+            <a className="link link-hover block py-3 ">About us</a>
+            <a className="link link-hover block py-3 ">Contact</a>
+            <a className="link link-hover block py-3 ">Jobs</a>
+            <a className="link link-hover block py-3 ">Press kit</a>
           </div>
-          <small>Copyright By@Arefine - 2023 </small>
         </div>
         <div className=" md:w-3/12 text-right pe-5">
           <button className="btn btn-outline btn-warning block">Warning</button>
-          <button className="btn btn-circle btn-outline btn-warning mt-16">
+          <button className="btn btn-circle btn-outline btn-warning md:mt-16 mt-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -37,6 +36,9 @@ const Footer = () => {
           </button>
         </div>
       </footer>
+      <div className="text-center w-full">
+      <small >Copyright By@Arefine - 2023 </small>
+      </div>
     </div>
   );
 };

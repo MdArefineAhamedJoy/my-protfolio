@@ -13,7 +13,7 @@ const Home = () => {
       <OptionTabs></OptionTabs>
       <Project></Project>
       <Socialmedia></Socialmedia>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 };
