@@ -17,7 +17,8 @@
         "Stripe.js",
         "Tailwind CSS"
       ],
-      "image": "https://i.ibb.co/PYxMtHz/istockphoto-1416645754-170667a.webp"
+      "image": "https://i.ibb.co/PYxMtHz/istockphoto-1416645754-170667a.webp",
+      "objective": "SerensSoulYoga Full-stack web app for yoga classes. Users can register as instructors/students, buy classes, and admins manage content."
     },
     {
       "id": 2,
@@ -34,7 +35,8 @@
         "MongoDB",
         "Firebase"
       ],
-      "image": "https://i.ibb.co/FqbFcG0/istockphoto-961747868-170667a.webp"
+      "image": "https://i.ibb.co/FqbFcG0/istockphoto-961747868-170667a.webp" ,
+      "objective": "BabyCarCurias is a full-stack web app for the baby market. Features include user authentication, content management, collaboration, and Firebase integration."
     },
     {
       "id": 3,
@@ -53,7 +55,8 @@
         "Tailwind CSS",
         "DaisyUI"
       ],
-      "image": "https://i.ibb.co/SPM9DSz/istockphoto-1415525222-170667a.webp"
+      "image": "https://i.ibb.co/SPM9DSz/istockphoto-1415525222-170667a.webp",
+      "objective": "TopMusterChef: User authentication, top chefs, blogs, and PDF downloads in a full-stack web app with React, Node.js, MongoDB, Firebase."
     }
   ]
   

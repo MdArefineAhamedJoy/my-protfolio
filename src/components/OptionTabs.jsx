@@ -9,7 +9,7 @@ import Chats from "./Chats";
 
 const OptionTabs = () => {
   return (
-    <div name="about" className="text-white w-full md:h-screen  md:w-11/12 mx-auto  ">
+    <div name="about" className="text-white w-full md:h-screen mt-10 md:mt-0 md:w-11/12 mx-auto  ">
       <Tabs  >
         <TabList className='bg-[#2a2c47]   grid md:grid-cols-5 grid-cols-3 gap-y-2  '>
           <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4   border-x-2 border-[#ffc576] outline-none'>About Me </Tab>
