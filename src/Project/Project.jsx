@@ -9,7 +9,7 @@ const Project = () => {
   }, []);
 
   return (
-    <div className="pt-10 px-4  w-full">
+    <div name="project" className="pt-10 px-4  w-full">
       <h2 className="text-xl font-bold uppercase">Project</h2>
       <div className="pt-10 md:grid grid-cols-3 gap-5">
         {futures?.map((future) => (

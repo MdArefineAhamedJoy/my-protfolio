@@ -4,6 +4,7 @@ import About from "./About";
 import Skills from "./Skills";
 import OthersSkills from "./OthersSkills";
 import Blog from "./Blog";
+import Chats from "./Chats";
 
 
 const OptionTabs = () => {
@@ -15,7 +16,7 @@ const OptionTabs = () => {
           <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>Skills</Tab>
           <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>My Blogs </Tab>
           <Tab className='block  hover:bg-[#ffc576] hover:text-black  text-center cursor-pointer duration-500 py-4   border-x-2 border-[#ffc576]  outline-none'>Others Skills </Tab>
-          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>Let's Chats </Tab>
+          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>Cover Letter </Tab>
         </TabList>
 
         <TabPanel>
@@ -31,7 +32,7 @@ const OptionTabs = () => {
         <OthersSkills></OthersSkills>
         </TabPanel>
         <TabPanel>
-          <h2>Any content 5</h2>
+          <h1>cover latter </h1>
         </TabPanel>
       </Tabs>
     </div>

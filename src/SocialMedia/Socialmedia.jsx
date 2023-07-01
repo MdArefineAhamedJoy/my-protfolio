@@ -13,7 +13,7 @@ const Socialmedia = () => {
 
   return (
     <>
-      <div className="mt-24 px-4">
+      <div name="social media" className="mt-24 px-4">
         <p>SOCIAL MEDIA</p>
         <h2 className="text-3xl font-bold uppercase pb-10">Let’s Be Friends</h2>
       </div>

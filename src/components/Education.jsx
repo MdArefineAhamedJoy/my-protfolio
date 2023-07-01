@@ -2,7 +2,8 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className=" py-10 mt-20 px-4 bg-gradient-to-r from-black via-gray-950 to-[#1f2336] text-gray-500">
+    <div name="education" className=" h-96 flex flex-row items-center px-4 ">
+      <div>
       <h1 className="text-[#ffc576] text-3xl font-medium"> Education </h1>
       <div className="  md:ms-10 mt-5">
         <div className=" ">
@@ -11,6 +12,7 @@ const Education = () => {
           <h2 className=""> Department Of Management </h2>
           <p> 2021-Present </p>
         </div>
+      </div>
       </div>
     </div>
   );

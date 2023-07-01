@@ -5,6 +5,7 @@ import Project from "../Project/Project";
 import Socialmedia from "../SocialMedia/Socialmedia";
 import Footer from "../Footer/Footer";
 import Education from './../components/Education';
+import Chats from "../components/Chats";
 
 
 const Home = () => {
@@ -14,7 +15,8 @@ const Home = () => {
       <OptionTabs></OptionTabs>
       <Project></Project>
       <Education></Education>
-      <Socialmedia></Socialmedia>
+      {/* <Socialmedia></Socialmedia> */}
+      <Chats></Chats>
       <Footer></Footer>
     </div>
   );
