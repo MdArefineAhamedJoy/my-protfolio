@@ -16,7 +16,7 @@ const OptionTabs = () => {
           <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>Skills</Tab>
           <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>My Blogs </Tab>
           <Tab className='block  hover:bg-[#ffc576] hover:text-black  text-center cursor-pointer duration-500 py-4   border-x-2 border-[#ffc576]  outline-none'>Others Skills </Tab>
-          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>Cover Letter </Tab>
+          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>Social Media </Tab>
         </TabList>
 
         <TabPanel>
@@ -32,7 +32,7 @@ const OptionTabs = () => {
         <OthersSkills></OthersSkills>
         </TabPanel>
         <TabPanel>
-          <h1>cover latter </h1>
+          <h1>Resume </h1>
         </TabPanel>
       </Tabs>
     </div>

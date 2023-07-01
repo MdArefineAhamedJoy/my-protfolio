@@ -17,33 +17,33 @@ const Chats = () => {
 <div className="w-full block">
           <input
             type="text"
-            placeholder="Full Name"
-            className="py-4 px-3 rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
-            {...register("fullName")}
+            placeholder="First Name"
+            className="py-4 px-3  rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
+            {...register("firstName")}
           />
         </div>
         <div className="w-full block">
           <input
             type="text"
-            placeholder="Full Name"
-            className="py-4 px-3 rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
-            {...register("fullName")}
+            placeholder="Last Name"
+            className="py-4 px-3  rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
+            {...register("lastName")}
           />
         </div>
         <div className="w-full block">
           <input
-            type="text"
-            placeholder="Full Name"
-            className="py-4 px-3 rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
-            {...register("fullName")}
+            type="email"
+            placeholder="Email"
+            className="py-4 px-3  rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
+            {...register("email")}
           />
         </div>
         <div className="w-full block">
           <input
-            type="text"
-            placeholder="Full Name"
-            className="py-4 px-3 rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
-            {...register("fullName")}
+            type="number"
+            placeholder="Phone"
+            className="py-4 px-3  rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
+            {...register("phone")}
           />
         </div>
 </div>
@@ -52,21 +52,22 @@ const Chats = () => {
         <div className="w-full block">
           <input
             type="text"
-            placeholder="Full Name"
-            className="py-4 px-3 rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
-            {...register("fullName")}
+            placeholder="Addresses"
+            className="py-4 px-3  rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
+            {...register("addresses")}
           />
         </div>
           <div>
           <textarea
             className="p-4 rounded-sm outline-none w-full bg-transparent text-white border-2 border-[#ffc576] "
             placeholder="Message"
-            name=""
+            name="message"
             id=""
             cols="20"
             rows="8"
+            {...register("message")}
           >
-            {" "}
+         
           </textarea>
           </div>
         </div>
