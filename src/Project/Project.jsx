@@ -17,14 +17,14 @@ const Project = () => {
             key={future?.id}
             className="card  rounded-none border-4 shadow-xl overflow-hidden relative"
           >
-            {/* <figure>
+            <figure>
               <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src={future?.image}
                 alt="Shoes"
               />
-            </figure> */}
-            <div className="card-body">
-              <h2 className="card-title">{future?.title}</h2>
+            </figure>
+            <div className="">
+              <h2 className="">{future?.title}</h2>
               {future?.features?.map((data, index) => (
                 <ul key={Math.random()}>
                   <li>

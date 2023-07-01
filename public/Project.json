@@ -17,7 +17,7 @@
         "Stripe.js",
         "Tailwind CSS"
       ],
-      "image": "https://example.com/serenssoulyoga.jpg"
+      "image": "https://i.ibb.co/PYxMtHz/istockphoto-1416645754-170667a.webp"
     },
     {
       "id": 2,
@@ -34,11 +34,11 @@
         "MongoDB",
         "Firebase"
       ],
-      "image": "https://example.com/babycarcurias.jpg"
+      "image": "https://i.ibb.co/FqbFcG0/istockphoto-961747868-170667a.webp"
     },
     {
       "id": 3,
-      "title": "BolLagbe-Books Reselling",
+      "title": "Top Muster Chef",
       "features": [
         "User authentication with email & password and Google GitHub",
         "View details page of top chefs for logged-in users",
@@ -53,7 +53,7 @@
         "Tailwind CSS",
         "DaisyUI"
       ],
-      "image": "https://example.com/bollagbebooks.jpg"
+      "image": "https://i.ibb.co/SPM9DSz/istockphoto-1415525222-170667a.webp"
     }
   ]
   

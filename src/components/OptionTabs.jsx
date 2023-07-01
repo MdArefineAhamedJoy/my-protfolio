@@ -9,14 +9,14 @@ import Chats from "./Chats";
 
 const OptionTabs = () => {
   return (
-    <div className="text-white w-full h-full  md:w-11/12 mx-auto  ">
+    <div name="about" className="text-white w-full md:h-screen  md:w-11/12 mx-auto  ">
       <Tabs  >
-        <TabList className='bg-[#2a2c47]   grid md:grid-cols-5 grid-clos-3 '>
-          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576] outline-none'>About Me </Tab>
-          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>Skills</Tab>
-          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>My Blogs </Tab>
-          <Tab className='block  hover:bg-[#ffc576] hover:text-black  text-center cursor-pointer duration-500 py-4   border-x-2 border-[#ffc576]  outline-none'>Others Skills </Tab>
-          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4  border-x-2 border-[#ffc576]  outline-none'>Social Media </Tab>
+        <TabList className='bg-[#2a2c47]   grid md:grid-cols-5 grid-cols-3 gap-y-2  '>
+          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4   border-x-2 border-[#ffc576] outline-none'>About Me </Tab>
+          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4   border-x-2 border-[#ffc576]  outline-none'>Skills</Tab>
+          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4   border-x-2 border-[#ffc576]  outline-none'>My Blogs </Tab>
+          <Tab className='block  hover:bg-[#ffc576] hover:text-black  text-center cursor-pointer duration-500 py-4    border-x-2 border-[#ffc576]  outline-none'>Others Skills </Tab>
+          <Tab className='block  hover:bg-[#ffc576] hover:text-black text-center cursor-pointer  duration-500 py-4   border-x-2 border-[#ffc576]  outline-none'>Social Media </Tab>
         </TabList>
 
         <TabPanel>

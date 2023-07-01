@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div
       name="home"
-      className="md:pt-0 pt-28 md:h-screen h-full   w-full bg-gradient-to-b from-[#1f2336] via-black to-blue-950"
+      className="md:pt-0  md:h-screen h-full   w-full bg-gradient-to-b from-[#1f2336] via-black to-blue-950"
     >
       <div className=" mx-auto flex  flex-col items-center justify-center h-full md:px-4 md:flex-row text-white">
         <div className="md:w-1/2 w-full   ps-4 ">
