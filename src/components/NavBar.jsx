@@ -32,9 +32,7 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="bg-gray-200" data-aos="fade-left"
-    data-aos-easing="linear"
-    data-aos-duration="1500">
+    <nav className="bg-gray-200 fixed top-0 w-full z-10" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
@@ -44,9 +42,9 @@ const NavBar = () => {
           </div>
 
           <div className="hidden md:block">
-            <ul className="ml-auto flex items-baseline space-x-4" >
+            <ul className="ml-auto flex items-baseline space-x-4">
               {links.map((link) => (
-                <li key={link.id} >
+                <li key={link.id}>
                   <ScrollLink
                     activeClass="active"
                     to={link.link}
@@ -54,7 +52,7 @@ const NavBar = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    className="text-gray-600 capitalize text-xl hover:text-blue-500 cursor-pointer"
+                    className="text-gray-600 capitalize text-xl hover:text-blue-500  cursor-pointer"
                     activeStyle={{ fontWeight: "bold", color: "blue" }}
                   >
                     {link.link}
@@ -107,7 +105,7 @@ const NavBar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-gray-600 hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
+                className="text-gray-600 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium cursor-pointer"
                 activeStyle={{ fontWeight: "bold", color: "blue" }}
               >
                 {link.link}
