@@ -2,7 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div  className="w-full bg-[#313552]">
+    <div  className="w-full bg-[#313552]" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">
       <div className="hero  h-full">
         <div className="hero-content flex-col lg:flex-row">
           <div className="md:w-1/2">

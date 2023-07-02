@@ -97,16 +97,20 @@ const Banner = () => {
         loaded={particlesLoaded}
         options={options}
       />
-      <div className=" mx-auto flex  flex-col items-center justify-center h-full md:px-4 md:flex-row text-white ">
-        <div className="md:w-1/2 w-full   ps-4 ">
-          <p className="text-lg capitalize md:pb-2 my-5 md:my-0">
+      <div   className=" mx-auto flex  flex-col items-center justify-center h-full md:px-4 md:flex-row text-white ">
+        <div className="md:w-1/2 w-full   ps-4 " >
+          <p  className="text-lg capitalize md:pb-2 my-5 md:my-0 " data-aos="fade-up"
+     data-aos-duration="1000">
             Assalamu Alaikum,
           </p>
-          <h2 className="md:text-2xl capitalize my-5 md:my-0 text-xl text-white font-medium">
+          <h2 className="md:text-2xl capitalize my-5 md:my-0 text-xl text-white font-medium" data-aos="fade-up"
+     data-aos-duration="1000">
             this is , Md Arefine Ahamed Joy
           </h2>
 
-          <h1 className="md:py-6 text-[#ffc576]  py-2 md:text-3xl text-2xl tracking-widest capitalize font-bold ">
+          <h1  className="md:py-6 text-[#ffc576]  py-2 md:text-3xl text-2xl tracking-widest capitalize font-bold " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <Typewriter
               words={[
                 "i am web application developer",
@@ -124,12 +128,17 @@ const Banner = () => {
           </h1>
 
           <div className="pt-5">
-            <button className="px-6 py-3 hover:bg-[#ffc576] hover:text-black  outline   duration-300 outline-[#ffc576] ">
+            <button className="px-6 py-3 hover:bg-[#ffc576] hover:text-black  outline   duration-300 outline-[#ffc576] " data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
               Download Resume
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 w-full  flex items-center mt-10   md:mt-0 mx-auto h-full ">
+        <div className="md:w-1/2 w-full  flex items-center mt-10   md:mt-0 mx-auto h-full " data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1000">
           <img
             src="https://i.ibb.co/6D1mH0H/294276808-613874180350562-1223793273893716160-n.jpg"
             className="shadow-2xl w-96 rounded-full h-96 block mx-auto"

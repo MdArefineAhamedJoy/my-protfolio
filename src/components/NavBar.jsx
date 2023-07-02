@@ -32,19 +32,21 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="bg-gray-200">
+    <nav className="bg-gray-200" data-aos="fade-left"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-gray-800 uppercase">Arefine29</span>
+              <span className="text-2xl font-bold text-[#d2a668] shadow-md uppercase">Arefine29</span>
             </div>
           </div>
 
           <div className="hidden md:block">
-            <ul className="ml-auto flex items-baseline space-x-4">
+            <ul className="ml-auto flex items-baseline space-x-4" >
               {links.map((link) => (
-                <li key={link.id}>
+                <li key={link.id} >
                   <ScrollLink
                     activeClass="active"
                     to={link.link}

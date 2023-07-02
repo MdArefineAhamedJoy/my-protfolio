@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="pt-10">
       <footer className=" py-10 bg-neutral px-4 md:px-0   md:flex md:pt-20 ">
         <div className=" md:w-3/12 md:text-center">
-          <span className="footer-title text-xl">Services</span>
+          <span className="footer-title text-xl">Arefine29</span>
         </div>
         <div className="md:w-6/12 md:text-center my-10 md:my-0  ">
           <span className=" footer-title text-3xl ">Let’s Talk ?</span>
@@ -17,7 +17,9 @@ const Footer = () => {
           </div>
         </div>
         <div className=" md:w-3/12 text-right pe-5">
-          <button className="btn btn-outline btn-warning block">Warning</button>
+          <button className=" block px-8 py-2 hover:bg-[#ffc576] hover:text-black font-medium outline   duration-300 outline-[#ffc576]" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">Hire Me</button>
           <button className="btn btn-circle btn-outline btn-warning md:mt-16 mt-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"

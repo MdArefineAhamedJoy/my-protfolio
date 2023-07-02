@@ -8,6 +8,9 @@ const Chats = () => {
     <div
       name="let's chat"
       className="px-4 md:h-screen h-full md:grid  items-center"
+      data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"
     >
       <div>
         <h3 className="text-4xl font-bold mb-5 text-[#ffc576]">Let’s Chat</h3>

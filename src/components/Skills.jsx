@@ -17,7 +17,9 @@ const skill = [
 
 function Skills() {
   return (
-    <div className="grid md:grid-cols-2 gap-10 py-10">
+    <div className="grid md:grid-cols-2 gap-10 py-10" data-aos="zoom-out"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">
       {skill.map((data, index) => (
         <div key={index}>
           <div className="flex justify-between items-center p-2">

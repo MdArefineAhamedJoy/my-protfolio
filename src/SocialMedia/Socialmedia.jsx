@@ -13,7 +13,9 @@ const Socialmedia = () => {
 
   return (
     <>
-      <div name="social media" className="mt-24 px-4">
+      <div name="social media" className="mt-24 px-4" data-aos="fade-left"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
         <p>SOCIAL MEDIA</p>
         <h2 className="text-3xl font-bold uppercase pb-10">Let’s Be Friends</h2>
       </div>

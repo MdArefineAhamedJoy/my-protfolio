@@ -2,7 +2,9 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div name="education" className=" h-96 flex flex-row items-center px-4 ">
+    <div data-aos="fade-right"
+    data-aos-easing="linear"
+    data-aos-duration="1500" name="education" className=" h-96 flex flex-row items-center px-4 ">
       <div>
       <h1 className="text-[#ffc576] text-3xl font-medium"> Education </h1>
       <div className="  md:ms-10 mt-5">
