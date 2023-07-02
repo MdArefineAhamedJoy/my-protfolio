@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="pt-10">
       <footer className=" py-10 bg-neutral px-4 md:px-0   md:flex md:pt-20 ">
         <div className=" md:w-3/12 md:text-center">
-          <span className="footer-title text-2xl text-[#d2a668] shadow-md shadow-white" >Arefine29</span>
+          <span className="footer-title text-2xl text-[#d2a668] font-signature font-bold shadow-md shadow-white" >Arefine29</span>
         </div>
         <div className="md:w-6/12 md:text-center my-10 md:my-0  ">
           <span className=" footer-title text-3xl ">Let’s Talk ?</span>

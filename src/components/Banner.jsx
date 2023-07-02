@@ -102,7 +102,7 @@ const Banner = () => {
             Assalamu Alaikum,
           </p>
           <h2
-            className="md:text-2xl capitalize mb-5 md:my-0 text-xl text-white font-medium"
+            className="md:text-2xl capitalize mb-5 md:my-0 text-xl text-white font-medium font-signature"
             data-aos="fade-up"
             data-aos-duration="1000"
           >

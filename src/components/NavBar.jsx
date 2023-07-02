@@ -37,7 +37,7 @@ const NavBar = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-[#d2a668] shadow-md uppercase">Arefine29</span>
+              <span className="text-2xl  text-[#d2a668] font-bold shadow-md uppercase font-signature">Arefine29</span>
             </div>
           </div>
 
