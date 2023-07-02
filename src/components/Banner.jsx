@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div
       name="home"
-      className="md:pt-0  md:h-screen h-full   w-full bg-gradient-to-b from-[#1f2336] via-black to-blue-950"
+      className="md:pt-0  md:h-screen h-full   w-full "
     >
       <div className=" mx-auto flex  flex-col items-center justify-center h-full md:px-4 md:flex-row text-white">
         <div className="md:w-1/2 w-full   ps-4 ">
@@ -24,10 +24,10 @@ const Banner = () => {
             </div>
 
         </div>
-        <div className="md:w-1/2 w-full flex items-center mt-10  md:mt-0 mx-auto h-full ">
+        <div className="md:w-1/2 w-full  flex items-center mt-10   md:mt-0 mx-auto h-full ">
           <img
             src="https://i.ibb.co/6D1mH0H/294276808-613874180350562-1223793273893716160-n.jpg"
-            className="rounded-lg shadow-2xl w-full md:h-[400px] h-full block  mx-auto"
+            className="shadow-2xl w-96 rounded-full h-96 block mx-auto"
           />
         </div>
       </div>

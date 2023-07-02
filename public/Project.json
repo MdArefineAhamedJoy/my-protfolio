@@ -5,7 +5,6 @@
       "features": [
         "Users can register as an instructor or student",
         "Instructors can add and update classes based on feedback",
-        "Students can select and purchase classes",
         "Admin can manage user roles and approve/deny classes"
       ],
       "technology": [

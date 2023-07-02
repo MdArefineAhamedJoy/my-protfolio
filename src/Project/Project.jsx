@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   const [futures, setFutures] = useState([]);
@@ -9,24 +10,30 @@ const Project = () => {
   }, []);
 
   return (
-    <div name="project" className="pt-10 px-4 h-screen w-full">
+    <div name="project" className="pt-10 px-4 h-full w-full">
       <h2 className="text-xl font-bold uppercase">Project</h2>
       <div className="pt-10 md:grid grid-cols-3 gap-5">
         {futures?.map((future) => (
-          <div key={future.id} className="card group rounded-none  shadow-xl overflow-hidden relative">
-            <div>
-              <img
-                src={future?.image}
-                alt="Shoes"
-                className="transform group-hover:scale-105 duration-300"
-              />
-            </div>
-            <div>
-            <h2 className="">{future?.title}</h2>
-            <p>{future?.objective}</p>
-            <button>details</button>
-            </div>
-          </div>
+          <div key={future.id} className="card group rounded-none  hover:border-b-2 border-[#ffc576] duration-500 overflow-hidden shadow-xl">
+  <figure><img  src={future?.image} alt="title" className="transform group-hover:scale-105 duration-300"/></figure>
+  <div className="p-2">
+    <h2 className="card-title text-[#ffc576] ">{future?.title}</h2>
+    <p>{future?.objective}</p>
+    <span className=" font-bold text-[#ffc576] pb-3 ">Technology  </span>
+    <ul className="grid grid-cols-3 ga-5 ">
+
+      {
+        future?.technology?.map(tec => <li className="btn m-1 btn-xs bg-black text-white group-hover:bg-[#e5af63] group-hover:text-black duration-300" key={Math.random()}>{tec}</li>)
+      }
+    </ul>
+    <div className="flex  justify-between gap-2 mt-4 p-2">
+    <button className="btn btn-sm group-hover:bg-[#e5af63]  duration-300 capitalize">Live Site  </button>
+    <button className="btn btn-sm group-hover:bg-[#ffc576]  duration-300 capitalize">Clint Side </button>
+    <button className="btn btn-sm group-hover:bg-[#ffc576]  duration-300 capitalize">Server Side  </button>
+
+    </div>
+  </div>
+</div>
         ))}
       </div>
     </div>
@@ -35,40 +42,4 @@ const Project = () => {
 
 export default Project;
 
-// <div
-// key={future?.id}
-// className="card group rounded-none  shadow-xl overflow-hidden relative"
-// >
-// {/* Todo : color [#ffc576] */}
-// <figure>
-//   <img
-//     src={future?.image}
-//     alt="Shoes"
-//     className="transform group-hover:scale-105 duration-300"
-//   />
-// </figure>
-// <div className="">
-//   <h2 className="">{future?.title}</h2>
-//   {future?.features?.map((data, index) => (
-//     <ul key={Math.random()}>
-//       <li>
-//         {index + 1} {data}
-//       </li>
-//     </ul>
-//   ))}
-//   <div>
-//     <p>Technology</p>
-//     <div className="grid grid-cols-3">
-//       {future?.technology?.map((data) => (
-//         <span key={Math.random()}>{data}</span>
-//       ))}
-//     </div>
-//   </div>
 
-//   <div className="card-actions absolute bottom-1 justify-center">
-//     <div className="badge badge-outline">show details</div>
-//     <div className="badge badge-outline">show details</div>
-//     <div className="badge badge-outline">show details</div>
-//   </div>
-// </div>
-// </div>

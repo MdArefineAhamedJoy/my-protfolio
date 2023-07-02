@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import OthersSkills from "./OthersSkills";
 import Blog from "./Blog";
 import Chats from "./Chats";
+import Socialmedia from "../SocialMedia/Socialmedia";
 
 
 const OptionTabs = () => {
@@ -32,7 +33,7 @@ const OptionTabs = () => {
         <OthersSkills></OthersSkills>
         </TabPanel>
         <TabPanel>
-          <h1>Resume </h1>
+          <Socialmedia></Socialmedia>
         </TabPanel>
       </Tabs>
     </div>
