@@ -85,7 +85,7 @@ const Banner = () => {
   };
 
   return (
-    <div name="home" className="md:pt-0  md:h-screen h-full relative  w-full  ">
+    <div name="home" className="md:pt-20  md:h-screen  h-full relative  w-full  ">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -170,8 +170,8 @@ const Banner = () => {
           data-aos-duration="1000"
         >
           <img
-            src="https://i.ibb.co/6D1mH0H/294276808-613874180350562-1223793273893716160-n.jpg"
-            className="shadow-2xl w-96 rounded-full h-96 block mx-auto"
+            src="https://i.ibb.co/hmm7mvG/Whats-App-Image-2023-07-03-at-04-10-48-removebg-preview.png"
+            className=" md:w-96 md:h-96 h-fit px-4 md:px-0 w-fit rounded-md block mx-auto "
           />
         </div>
       </div>
