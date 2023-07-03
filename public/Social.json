@@ -1,34 +1,40 @@
 {
   "social_media": [
-    {
-      "id": "facebook",
-      "title": "Facebook",
-      "subtitle": "Connect with friends and family",
-      "icon": "https://i.ibb.co/xqXK0Nx/download.png"
-    },
+   
     {
       "id": "linkedin",
       "title": "LinkedIn",
       "subtitle": "Build your professional network",
-      "icon": "https://i.ibb.co/31KKFXS/download-1.png"
+      "icon": "https://i.ibb.co/31KKFXS/download-1.png",
+      "link": "https://www.linkedin.com/in/md-arefine-ahame05d-joy-15b96726b/"
     },
     {
       "id": "github",
       "title": "GitHub",
       "subtitle": "Collaborate on coding projects",
-      "icon": "https://i.ibb.co/NCLPXY8/download-21.png"
+      "icon": "https://i.ibb.co/NCLPXY8/download-21.png",
+      "link": "https://github.com/MdArefineAhamedJoy"
     },
     {
       "id": "email",
       "title": "Email",
       "subtitle": "Send and receive messages",
-      "icon": "https://i.ibb.co/FhRm1dr/download-4.png"
+      "icon": "https://i.ibb.co/FhRm1dr/download-4.png",
+      "link": "arefinejr05@gmail.com"
     },
     {
       "id": "whatsapp",
       "title": "WhatsApp",
       "subtitle": "Chat and call with friends",
-      "icon": "https://i.ibb.co/FKRPN7J/download.jpg"
+      "icon": "https://i.ibb.co/FKRPN7J/download.jpg",
+      "link": ""
+    },
+    {
+      "id": "facebook",
+      "title": "Facebook",
+      "subtitle": "Connect with friends and family",
+      "icon": "https://i.ibb.co/xqXK0Nx/download.png",
+      "link": "https://www.facebook.com/mdarfineahemd.joy/"
     }
   ]
 }

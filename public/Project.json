@@ -21,7 +21,9 @@
       "animation": { "dataAos":"flip-right",
       "dataAosEasing":"linear",
       "dataAosDuration":"1500"},
-      "link": "https://www.linkedin.com/in/md-arefine-ahame05d-joy-15b96726b/"
+      "live": "https://serenesoulyoga-7e3d8.web.app/",
+      "client": "https://github.com/MdArefineAhamedJoy/SereneSoulYoga",
+      "server": "https://github.com/MdArefineAhamedJoy/SereneSoulYoga-server"
     },
     {
       "id": 2,
@@ -42,8 +44,12 @@
       "objective": "BabyCarCurias is a full-stack web app for the baby market. Features include user authentication, content management, collaboration, and Firebase integration.",
       "animation": { "dataAos":"zoom-in",
       "dataAosEasing":"linear",
-      "dataAosDuration":"1500"}
+      "dataAosDuration":"1500"},
+      "live": "https://babycarcruise.web.app/",
+      "client": "https://github.com/MdArefineAhamedJoy/BabyCarCruise",
+      "server": "https://github.com/MdArefineAhamedJoy/BabyCarCruiseServer"
     },
+
     {
       "id": 3,
       "title": "Top Muster Chef",
@@ -65,7 +71,10 @@
       "objective": "TopMusterChef: User authentication, top chefs, blogs, and PDF downloads in a full-stack web app with React, Node.js, MongoDB, Firebase.",
       "animation": { "dataAos":"flip-left",
       "dataAosEasing":"linear",
-      "dataAosDuration":"1500"}
+      "dataAosDuration":"1500"},
+      "live": "https://world-top-chef.web.app/",
+      "client": "https://github.com/MdArefineAhamedJoy/top-master-chef",
+      "server": "https://github.com/MdArefineAhamedJoy/top-master-chef-server"
     }
   ]
   

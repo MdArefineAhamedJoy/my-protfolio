@@ -38,17 +38,19 @@ const Socialmedia = () => {
         <h2 className="text-3xl font-medium uppercase pb-10">Let’s Be Friends</h2>
       </div>
       <div className="grid md:grid-cols-3 grid-cols-2 px-4 w-full gap-5">
-        {social.map((data, index) => (
+        {social.map(({title , subtitle , icon , link}) => (
           <div
-            key={index}
-            className="flex p-7 items-center justify-between hover:bg-[#ffc576] duration-500  outline outline-2 outline-[#ffc576] rounded-sm hover:text-black"
+            key={Math.random()}
+            className="flex p-7 items-center justify-between hover:bg-[#ffc576] duration-500  outline outline-2 outline-[#ffc576] rounded-sm hover:text-black hover:scale-105 "
           >
             <div>
-              <h2 className="card-title uppercase">{data.title}</h2>
-              <small className="hidden md:block">{data.subtitle}</small>
+              <h2 className="card-title uppercase">{title}</h2>
+              <small className="hidden md:block">{subtitle}</small>
             </div>
             <div>
-              <img src={data.icon} className="w-20 h-20 rounded-full" alt="" />
+              <a href={link}>
+              <img src={icon} className="w-20 h-20 rounded-full" alt="" />
+              </a>
             </div>
           </div>
         ))}

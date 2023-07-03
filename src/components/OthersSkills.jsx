@@ -1,39 +1,63 @@
-import React from "react";
+import React from 'react';
+// import img1 from "../assets/istockphoto-1413514596-170667a.webp"
+// import img2 from '../assets/istockphoto-1413514709-170667a.webp'
+// import img3 from '../assets/istockphoto-1413514774-170667a.webp'
 
-const skill = [
-  { name: "JavaScript", percent: "90%" },
-  { name: "React.js", percent: "90%" },
-  { name: "HTML", percent: "90%" },
-  { name: "CSS", percent: "90%" },
-  { name: "Tailwind CSS", percent: "90%" },
-  { name: "DaisyUl", percent: "95%" },
-  { name: "Bootstrap", percent: "90%" },
-  { name: "React Bootstrap", percent: "80%" },
-  { name: "Node.js", percent: "50%" },
-  { name: "Express.js", percent: "70%" },
-  { name: "MongoDB", percent: "60%" },
-  { name: "Firebase Authentication", percent: "70%" },
-];
+const Experience = () => {
+    // Todo: ADD Images 
+    const experiences = [
+        {
+            id:1 , 
+            title: 'Team Work',
+            style : 'shadow-orange-500'
+        },
+        {
+            id:2 , 
+            title: 'Heard Working Person',
+            style : 'shadow-pink-500'
+        },
+        {
+            id:3 , 
+            title: 'Good Communication',
+            style : 'shadow-yellow-500'
+        },
+        {
+            id:4 , 
+            title: 'Quick Learner',
+            style : 'shadow-purple-600'
+        },
+        {
+            id:5 , 
+            title: 'Flexibility,',
+            style : 'shadow-blue-400'
+        },
+        {
+            id:6 , 
+            title: 'Project Managing',
+            style : 'shadow-green-600'
+        },
+    ]
+    return (
+        <div name="experience" className=' w-full h-screen pu'>
+            <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'> 
+            <div>
+                    <p className="text-[#ffc576] text-3xl font-medium">Others Skills</p>
+              
+                </div>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
 
-function OthersSkills() {
-  return (
-    <div className="grid md:grid-cols-2 gap-10 py-10">
-      {skill.map((data, index) => (
-        <div key={index}>
-          <div className="flex justify-between items-center p-2">
-            <p className="font-semibold mb-2">{data.name}</p>
-            <small>{data.percent}</small>
-          </div>
-          <div className="w-full bg-gray-200 rounded">
-            <div
-              className="h-1 bg-[#ffc576] rounded"
-              style={{ width: data.percent }}
-            ></div>
-          </div>
+            {
+                experiences.map(({id , title ,src , style})=>
+       
+                <div key={id} className={`shadow-md flex items-center justify-center hover:scale-105 duration-200 py-2 rounded-lg ${style}` }>
+                    <p className='mt-4'>{title}</p>
+                </div>)
+            }
+        
+                </div>
+            </div>
         </div>
-      ))}
-    </div>
-  );
-}
+    );
+};
 
-export default OthersSkills;
+export default Experience;

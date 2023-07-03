@@ -13,7 +13,7 @@ const Project = () => {
     <div  name="project" className="pt-10 px-4 h-full w-full">
       <h2 className="text-[#ffc576] text-3xl font-medium">Project</h2>
       <div className="pt-10 md:grid grid-cols-3 gap-5">
-        {futures?.map(({id, image ,title , objective , technology, animation}) => (
+        {futures?.map(({id, image ,title , objective , technology, animation , live , server , client}) => (
           <div
             key={id}
             className="card group rounded-none  hover:border-b-2 border-[#ffc576] duration-500 overflow-hidden shadow-xl"  data-aos={animation?.dataAos}
@@ -43,15 +43,21 @@ const Project = () => {
                 ))}
               </ul>
               <div className="flex  justify-between gap-2 mt-4 p-2">
+                <a href={live}>
                 <button className="btn btn-sm group-hover:bg-[#e5af63]  duration-300 capitalize">
                   Live Site{" "}
                 </button>
+                </a>
+                <a href={client}>
                 <button className="btn btn-sm group-hover:bg-[#ffc576]  duration-300 capitalize">
                   Clint Side{" "}
                 </button>
+                </a>
+                <a href={server}>
                 <button className="btn btn-sm group-hover:bg-[#ffc576]  duration-300 capitalize">
                   Server Side{" "}
                 </button>
+                </a>
               </div>
             </div>
           </div>
