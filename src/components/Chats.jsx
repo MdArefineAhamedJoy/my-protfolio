@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import Lottie from "react-lottie";
-import { Typewriter } from "react-simple-typewriter";
+import Swal from 'sweetalert2'
 const Chats = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
@@ -17774,7 +17774,15 @@ const Chats = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          if(result.status){
+            Swal.fire({
+              position: 'center',
+              icon: 'success',
+              title: 'Email Send Succesfully ',
+              showConfirmButton: false,
+              timer: 1500
+            })
+          }
         },
         (error) => {
           console.log(error.text);
