@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div
-      className="w-full h-screen bg-[#313552]"
+      className="w-full h-full bg-[#313552]"
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="1000"
