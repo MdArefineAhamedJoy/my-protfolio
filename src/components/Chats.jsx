@@ -17783,20 +17783,20 @@ const Chats = () => {
   };
 
   return (
-    <div name="let's chat" className=" h-full py-10  px-4">
+    <div name="let's chat" className=" h-full py-10  md:px-4">
       <h3 className="text-[#ffc576] text-3xl font-medium capitalize">
         let's chat
       </h3>
       <div className="md:flex items-center ">
         <div className="grid md:grid-cols-2 w-full">
-          <div>
+          <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500"> 
             <Lottie options={lottieOptions} className="w-full h-full " />
           </div>
           <form
-            className="md:w-11/12 px-3 mx-auto "
+            className="md:w-11/12 w-full px-3 mx-auto "
             ref={form}
             onSubmit={sendEmail}
-          >
+            data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
             <label>Name</label>
             <input
               type="text"

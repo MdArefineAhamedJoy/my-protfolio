@@ -15,7 +15,7 @@ const Home = () => {
       <OptionTabs></OptionTabs>
       <Project></Project>
       <Education></Education>
-      {/* <Socialmedia></Socialmedia> */}
+
       <Chats></Chats>
       <Footer></Footer>
     </div>

@@ -92,63 +92,44 @@ const Banner = () => {
         loaded={particlesLoaded}
         options={options}
       />
-      <div className=" mx-auto flex md:pt-0 pt-20 flex-col items-center justify-center h-full md:px-4 md:flex-row text-white ">
+      <div className=" mx-auto flex md:pt-0 pt-20  flex-col items-center justify-center h-full md:px-4 md:flex-row text-white ">
         <div className="md:w-1/2 w-full   ps-4 ">
           <p
-            className="text-lg capitalize  mt-10 md:my-0 "
+            className="text-lg capitalize  mt-10 md:my-0  "
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             Assalamu Alaikum,
           </p>
           <h2
-            className="md:text-2xl capitalize mb-5 md:my-0 text-xl text-white font-medium font-signature"
+            className="md:text-2xl capitalize pt-5 md:my-0 text-xl text-[#ffc576] font-medium font-signature"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             this is , Md Arefine Ahamed Joy
           </h2>
-
-          <h1
-            className="md:py-6 text-[#ffc576]  py-2 md:text-3xl text-2xl tracking-widest capitalize font-bold "
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
-            <Typewriter
-              words={[
-                "i am web application developer",
-                "i am MERN Stack developer",
-                "i love web  development",
-                "I love coding ",
-              ]}
-              loop={15}
-              cursor
-              cursorStyle="_"
-              typeSpeed={200}
-              deleteSpeed={100}
-              delaySpeed={1000}
-            />
-          </h1>
-          <div className="py-5">
+          <div className="py-10">
            
            <p className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-[#ffc576]">  
            I
               <Typewriter
               words={[
-                "  am a junior frontend developer with full stack knowledge Web development",
                 " am a junior frontend developer",
-                " am a junior frontend developer with full stack knowledge Web development",
+                " am a junior frontend developer ",
                 " am a junior frontend developer",
+                " am web application developer",
+                " am MERN Stack developer",
+                " love coding ",
               ]}
               loop={15}
               cursor
               cursorStyle="_"
-              typeSpeed={200}
+              typeSpeed={50}
               deleteSpeed={10}
               delaySpeed={3000}
             /></p>
-            . With a passion for learning and a collaborative
+            with full stack knowledge Web development.
+            With a passion for learning and a collaborative
             mindset, I bring a strong skill set to projects.
           </div>
           <div>
