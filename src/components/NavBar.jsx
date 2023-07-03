@@ -32,7 +32,7 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="bg-gray-200 fixed top-0 w-full  z-10" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+    <nav className="bg-gray-200 fixed top-0 w-full  z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">

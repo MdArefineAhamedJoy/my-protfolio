@@ -96,7 +96,7 @@ const Banner = () => {
         <div className="md:w-1/2 w-full   ps-4 ">
           <p
             className="text-lg capitalize  mt-10 md:my-0  "
-            data-aos="fade-up"
+            data-aos="fade-button"
             data-aos-duration="1000"
           >
             Assalamu Alaikum,
@@ -145,7 +145,7 @@ const Banner = () => {
         </div>
         <div
           className="md:w-1/2 w-full  flex items-center mt-10   md:mt-0 mx-auto h-full "
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-anchor="#example-anchor"
           data-aos-offset="500"
           data-aos-duration="1000"

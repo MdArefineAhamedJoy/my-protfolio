@@ -17789,14 +17789,14 @@ const Chats = () => {
       </h3>
       <div className="md:flex items-center ">
         <div className="grid md:grid-cols-2 w-full">
-          <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500"> 
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> 
             <Lottie options={lottieOptions} className="w-full h-full " />
           </div>
           <form
             className="md:w-11/12 w-full px-3 mx-auto "
             ref={form}
             onSubmit={sendEmail}
-            data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
             <label>Name</label>
             <input
               type="text"
