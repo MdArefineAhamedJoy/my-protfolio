@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { FaFacebookSquare } from "react-icons/fa";
+import {  FaPhoneAlt } from "react-icons/fa";
+import { FaMapMarkerAlt } from 'react-icons/fa';
 const Socialmedia = () => {
   const [social, setSocial] = useState([]);
 
@@ -12,16 +13,29 @@ const Socialmedia = () => {
   console.log(social);
 
   return (
-    <>
+    <section className="h-screen pt-10">
+      <div className=" grid grid-cols-2 px-4 text-xl">
+        <div className="flex items-center justify-center ">
+        <FaPhoneAlt size={30} /> 
+        <span className="ms-10">
+        <p className="py-2">O1736226388</p>
+        <p>O1736226388</p>
+        </span>
+        </div>
+        <div className="flex items-center justify-center">
+        <FaMapMarkerAlt size={30} /> 
+        <span className="ms-10">
+        <p className="py-2">Kishorganj</p>
+        <p> Dhaka, Bangladesh</p>
+        </span>
+        </div>
+      </div>
       <div
         name="social media"
-        className="mt-24 px-4"
-        data-aos="fade-left"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
+        className="mt-14 "
       >
-        <p>SOCIAL MEDIA</p>
-        <h2 className="text-3xl font-bold uppercase pb-10">Let’s Be Friends</h2>
+        <p className="text-[#ffc576]">SOCIAL MEDIA</p>
+        <h2 className="text-3xl font-medium uppercase pb-10">Let’s Be Friends</h2>
       </div>
       <div className="grid md:grid-cols-3 grid-cols-2 px-4 w-full gap-5">
         {social.map((data, index) => (
@@ -31,15 +45,15 @@ const Socialmedia = () => {
           >
             <div>
               <h2 className="card-title uppercase">{data.title}</h2>
-              <p className="hidden md:block">{data.subtitle}</p>
+              <small className="hidden md:block">{data.subtitle}</small>
             </div>
             <div>
-              
+              <img src={data.icon} className="w-20 h-20 rounded-full" alt="" />
             </div>
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 };
 

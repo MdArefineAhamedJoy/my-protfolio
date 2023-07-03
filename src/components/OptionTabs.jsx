@@ -8,7 +8,7 @@ import Socialmedia from "../SocialMedia/Socialmedia";
 
 const OptionTabs = () => {
   return (
-    <div name="about" className="text-white w-full md:h-screen mt-10 md:mt-0 md:w-11/12 mx-auto">
+    <div name="about" className="text-white w-full h-full mt-10 md:mt-0 md:w-11/12 mx-auto">
       <Tabs>
         <TabList className="bg-[#2a2c47] grid md:grid-cols-5  gap-y-2">
           <Tab

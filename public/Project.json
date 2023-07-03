@@ -20,7 +20,8 @@
       "objective": "SerensSoulYoga Full-stack web app for yoga classes. Users can register as instructors/students, buy classes, and admins manage content.",
       "animation": { "dataAos":"flip-right",
       "dataAosEasing":"linear",
-      "dataAosDuration":"1500"}
+      "dataAosDuration":"1500"},
+      "link": "https://www.linkedin.com/in/md-arefine-ahame05d-joy-15b96726b/"
     },
     {
       "id": 2,

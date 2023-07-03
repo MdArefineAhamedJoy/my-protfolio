@@ -4,37 +4,31 @@
       "id": "facebook",
       "title": "Facebook",
       "subtitle": "Connect with friends and family",
-      "icon": "facebook-icon.png"
+      "icon": "https://i.ibb.co/xqXK0Nx/download.png"
     },
     {
       "id": "linkedin",
       "title": "LinkedIn",
       "subtitle": "Build your professional network",
-      "icon": "linkedin-icon.png"
+      "icon": "https://i.ibb.co/31KKFXS/download-1.png"
     },
     {
       "id": "github",
       "title": "GitHub",
       "subtitle": "Collaborate on coding projects",
-      "icon": "github-icon.png"
-    },
-    {
-      "id": "twitter",
-      "title": "Twitter",
-      "subtitle": "Express yourself in 280 characters",
-      "icon": "twitter-icon.png"
+      "icon": "https://i.ibb.co/NCLPXY8/download-21.png"
     },
     {
       "id": "email",
       "title": "Email",
       "subtitle": "Send and receive messages",
-      "icon": "email-icon.png"
+      "icon": "https://i.ibb.co/FhRm1dr/download-4.png"
     },
     {
       "id": "whatsapp",
       "title": "WhatsApp",
       "subtitle": "Chat and call with friends",
-      "icon": "whatsapp-icon.png"
+      "icon": "https://i.ibb.co/FKRPN7J/download.jpg"
     }
   ]
 }

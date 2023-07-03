@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import Lottie from "react-lottie";
-
+import { Typewriter } from "react-simple-typewriter";
 const Chats = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
@@ -17780,7 +17780,10 @@ const Chats = () => {
           console.log(error.text);
         }
       );
-  };
+    };
+
+ 
+
 
   return (
     <div name="let's chat" className=" h-full py-10  md:px-4">

@@ -17,7 +17,7 @@ const skill = [
 
 function Skills() {
   return (
-    <div className="grid md:grid-cols-2 gap-10 py-10" data-aos="zoom-out"
+    <div className="grid h-full md:grid-cols-2 gap-10 py-10" data-aos="zoom-out"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="1000">
       {skill.map((data, index) => (
@@ -28,7 +28,7 @@ function Skills() {
           </div>
           <div className="w-full bg-gray-200 rounded">
             <div
-              className="h-1 bg-[#ffc576] rounded"
+              className="h-4 bg-[#ffc576] "
               style={{ width: data.percent }}
             ></div>
           </div>

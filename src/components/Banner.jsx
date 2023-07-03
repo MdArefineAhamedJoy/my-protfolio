@@ -1,9 +1,9 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
+import resumes from '../assets/Md Arefine Ahamed Joy Resume.pdf'
 
 const Banner = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -133,6 +133,7 @@ const Banner = () => {
             mindset, I bring a strong skill set to projects.
           </div>
           <div>
+            <a href={resumes} download="Md Arefine Ahamed Joy Resume">
             <button
               className="px-6 py-3 hover:bg-[#ffc576] hover:text-black  outline   duration-300 outline-[#ffc576] "
               data-aos="flip-left"
@@ -141,6 +142,7 @@ const Banner = () => {
             >
               Download Resume
             </button>
+            </a>
           </div>
         </div>
         <div
