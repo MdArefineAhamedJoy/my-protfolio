@@ -17774,7 +17774,7 @@ const Chats = () => {
       )
       .then(
         (result) => {
-          if(result.status){
+          if (result.status) {
             Swal.fire({
               position: 'center',
               icon: 'success',
@@ -17789,21 +17789,23 @@ const Chats = () => {
           console.log(error.text);
         }
       );
-    };
+  };
 
- 
+
 
 
   return (
-    <div name="let's chat" className=" h-full py-10  md:px-4">
-      <h3 className="text-[#ffc576] text-3xl font-medium capitalize">
+    <div name="let's chat" className="w-full mx-auto h-full py-10 ">
+      <h3 className="text-[#ffc576] w-11/12 mx-auto text-3xl font-medium capitalize">
         let's chat
       </h3>
       <div className="md:flex items-center ">
+
         <div className="grid md:grid-cols-2 w-full">
-          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> 
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <Lottie options={lottieOptions} className="w-full h-full " />
           </div>
+
           <form
             className="md:w-11/12 w-full px-3 mx-auto "
             ref={form}

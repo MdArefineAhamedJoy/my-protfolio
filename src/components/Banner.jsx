@@ -85,15 +85,15 @@ const Banner = () => {
   };
 
   return (
-    <div name="home" className="md:pt-20  md:h-screen  h-full relative  w-full  ">
+    <div name="home" className="md:pt-20  md:h-screen  h-full relative  w-11/12 mx-auto  ">
       <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={options}
       />
-      <div className=" mx-auto flex md:pt-0 pt-20  flex-col items-center justify-center h-full md:px-4 md:flex-row text-white ">
-        <div className="md:w-1/2 w-full   ps-4 ">
+      <div className=" flex md:pt-0 pt-20  flex-col items-center justify-center h-full  md:flex-row text-white ">
+        <div className="md:w-1/2 w-full  ">
           <p
             className="text-lg capitalize  mt-10 md:my-0  "
             data-aos="fade-button"
@@ -154,7 +154,7 @@ const Banner = () => {
         >
           <img
             src="https://i.ibb.co/hmm7mvG/Whats-App-Image-2023-07-03-at-04-10-48-removebg-preview.png"
-            className=" md:w-96 md:h-96 h-fit px-4 md:px-0 w-fit rounded-md block mx-auto "
+            className=" w-9/12 md:h-96 h-fit px-4 md:px-0  rounded-md block mx-auto "
           />
         </div>
       </div>

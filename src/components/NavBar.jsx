@@ -19,21 +19,24 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "project",
+      link: "Skils",
     },
     {
       id: 4,
-      link: "education",
+      link: "project",
     },
     {
       id: 5,
+      link: "education",
+    },
+    {
+      id: 6,
       link: "let's chat",
     },
   ];
-
   return (
     <nav className="bg-gray-200 fixed top-0 w-full  z-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl    w-11/12 mx-auto">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <div className="flex-shrink-0">
@@ -44,7 +47,7 @@ const NavBar = () => {
           <div className="hidden md:block">
             <ul className="ml-auto flex items-baseline space-x-4">
               {links.map((link) => (
-                <li key={link.id} className="list-none">
+                <li key={link.id} className="list-none mx-5">
                   <ScrollLink
                     activeClass="active"
                     to={link.link}

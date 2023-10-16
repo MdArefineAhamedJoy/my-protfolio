@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div data-aos="fade-right"
     data-aos-easing="linear"
-    data-aos-duration="1500" name="education" className=" h-screen flex flex-row items-center px-4 ">
+    data-aos-duration="1500" name="education" className="w-11/12 mx-auto h-screen flex flex-row items-center  ">
       <div>
       <h1 className="text-[#ffc576] text-3xl font-medium"> Education </h1>
       <div className="  md:ms-10 mt-5">

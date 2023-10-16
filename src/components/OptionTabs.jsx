@@ -6,7 +6,7 @@ import OthersSkills from "./OthersSkills";
 import Blog from "./Blog";
 import Socialmedia from "../SocialMedia/Socialmedia";
 
-const OptionTabs = () => {
+const  OptionTabs = () => {
   return (
     <div name="about" className="text-white w-full h-full mt-10 md:mt-0 md:w-11/12 mx-auto">
       <Tabs>
@@ -43,21 +43,7 @@ const OptionTabs = () => {
           </Tab>
         </TabList>
 
-        <TabPanel>
-          <About></About>
-        </TabPanel>
-        <TabPanel>
-          <Skills></Skills>
-        </TabPanel>
-        <TabPanel>
-          <Blog></Blog>
-        </TabPanel>
-        <TabPanel>
-          <OthersSkills></OthersSkills>
-        </TabPanel>
-        <TabPanel>
-          <Socialmedia></Socialmedia>
-        </TabPanel>
+
       </Tabs>
     </div>
   );

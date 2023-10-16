@@ -10,7 +10,7 @@ const Project = () => {
   }, []);
 
   return (
-    <div  name="project" className="pt-10 px-4 h-full w-full">
+    <div  name="project" className="pt-10  h-full w-11/12 mx-auto">
       <h2 className="text-[#ffc576] text-3xl font-medium">Project</h2>
       <div className="pt-10 md:grid grid-cols-3 gap-5">
         {futures?.map(({id, image ,title , objective , technology, animation , live , server , client}) => (

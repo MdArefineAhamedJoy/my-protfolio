@@ -3,7 +3,7 @@ import React from "react";
 // import img2 from '../assets/istockphoto-1413514709-170667a.webp'
 // import img3 from '../assets/istockphoto-1413514774-170667a.webp'
 
-const Experience = () => {
+const OthersSkills = () => {
   // Todo: ADD Images
   const experiences = [
     {
@@ -38,12 +38,12 @@ const Experience = () => {
     },
   ];
   return (
-    <div name="experience" className=" w-full h-screen pu">
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+    <div name="experience" className=" w-11/12 mx-auto py-20">
+      <div className="flex flex-col justify-center h-full text-white">
         <div>
           <p className="text-[#ffc576] text-3xl font-medium">Others Skills</p>
         </div>
-        <div className="w-full grid  sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid sm:grid-cols-3 gap-8 text-center py-8">
           {experiences.map(({ id, title, src, style }) => (
             <div
               key={id}
@@ -58,4 +58,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default OthersSkills ;

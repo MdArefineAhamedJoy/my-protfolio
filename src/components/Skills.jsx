@@ -17,23 +17,26 @@ const skill = [
 
 function Skills() {
   return (
-    <div className="grid h-full md:grid-cols-2 gap-10 py-10" data-aos="zoom-out"
-    data-aos-easing="ease-out-cubic"
-    data-aos-duration="1000">
-      {skill.map((data, index) => (
-        <div key={index}>
-          <div className="flex justify-between items-center p-2">
-            <p className="font-semibold mb-2">{data.name}</p>
-            <small>{data.percent}</small>
+    <div className=" w-11/12 mx-auto h-full  py-20" data-aos="fede-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
+      <h1 className="text-[#ffc576] text-3xl font-medium pb-10">My Skills  </h1>
+      <div className="grid md:grid-cols-2 gap-10">
+        {skill.map((data, index) => (
+          <div key={index}>
+            <div className="flex justify-between items-center p-2">
+              <p className="font-semibold mb-2">{data.name}</p>
+              <small>{data.percent}</small>
+            </div>
+            <div className="w-full bg-gray-200 rounded">
+              <div
+                className="h-4 bg-[#ffc576] "
+                style={{ width: data.percent }}
+              ></div>
+            </div>
           </div>
-          <div className="w-full bg-gray-200 rounded">
-            <div
-              className="h-4 bg-[#ffc576] "
-              style={{ width: data.percent }}
-            ></div>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
